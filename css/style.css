@@ -31,6 +31,7 @@ header img, header h1 {
 
 #section-1 {
     padding: 16px 60px 12px;
+    border-bottom: 1px solid rgb(240, 240, 240);
 }
 
 #add-task {
@@ -47,3 +48,39 @@ header img, header h1 {
     border: 1px solid black;
     border-radius: 20%;
 }
+
+#section-2 {
+    padding: 20px 60px;
+}
+
+.ultimo-li {
+    margin-bottom: 20px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.check {
+    color: green;
+    border: 1px solid green;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 50%;
+}
+
+.linea-lista {
+    font-size: 20px;
+    padding-left: 6px;
+}
+
+.editorial {
+    font-size: 14px;
+    background-color: dodgerblue;
+    padding: 6px;
+    border-radius: 20%;
+}
+
