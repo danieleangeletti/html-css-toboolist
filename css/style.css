@@ -23,6 +23,14 @@ header img, header h1 {
     vertical-align: middle;
 }
 
+li {
+    margin-bottom: 10px;
+}
+
+li h1 {
+    margin-bottom: 10px;
+}
+
 .container {
     width: 80%;
     background-color: white;
@@ -72,6 +80,17 @@ ul, ol {
     border-radius: 50%;
 }
 
+.non-check {
+    color: red;
+    border: 1px solid red;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 50%;
+}
+
 .linea-lista {
     font-size: 20px;
     padding-left: 6px;
@@ -80,6 +99,41 @@ ul, ol {
 .editorial {
     font-size: 14px;
     background-color: dodgerblue;
+    padding: 6px;
+    border-radius: 20%;
+}
+
+.goals {
+    font-size: 14px;
+    background-color: rgb(178, 59, 164);
+    padding: 6px;
+    border-radius: 20%;
+}
+
+.recruiting {
+    font-size: 14px;
+    background-color: green;
+    padding: 6px;
+    border-radius: 20%;
+}
+
+.mobile {
+    font-size: 14px;
+    background-color: orange;
+    padding: 6px;
+    border-radius: 20%;
+}
+
+.website {
+    font-size: 14px;
+    background-color: violet;
+    padding: 6px;
+    border-radius: 20%;
+}
+
+.sales {
+    font-size: 14px;
+    background-color: greenyellow;
     padding: 6px;
     border-radius: 20%;
 }
