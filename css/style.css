@@ -109,45 +109,33 @@ ul, ol {
     padding-left: 6px;
 }
 
-.editorial {
+.riquadro {
     font-size: 14px;
-    background-color: dodgerblue;
     padding: 6px;
     border-radius: 16px;
+}
+
+.editorial {
+    background-color: dodgerblue;
 }
 
 .goals {
-    font-size: 14px;
     background-color: rgb(178, 59, 164);
-    padding: 6px;
-    border-radius: 16px;
 }
 
 .recruiting {
-    font-size: 14px;
     background-color: green;
-    padding: 6px;
-    border-radius: 16px;
 }
 
 .mobile {
-    font-size: 14px;
     background-color: orange;
-    padding: 6px;
-    border-radius: 16px;
 }
 
 .website {
-    font-size: 14px;
     background-color: violet;
-    padding: 6px;
-    border-radius: 16px;
 }
 
 .sales {
-    font-size: 14px;
     background-color: greenyellow;
-    padding: 6px;
-    border-radius: 16px;
 }
 
