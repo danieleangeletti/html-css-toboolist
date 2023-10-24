@@ -1,12 +1,24 @@
+/* 
+    reset
+*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* 
+    general
+*/
+
 body {
     background-color: rgb(240, 240, 240)
 }
+
+/* 
+    header
+*/
 
 h1 {
     display: inline-block;
@@ -22,6 +34,10 @@ header {
 header img, header h1 {
     vertical-align: middle;
 }
+
+/* 
+    main
+*/
 
 li {
     margin-bottom: 10px;
@@ -70,8 +86,6 @@ ul, ol {
 }
 
 .check {
-    color: green;
-    border: 1px solid green;
     display: inline-block;
     width: 24px;
     height: 24px;
@@ -80,15 +94,14 @@ ul, ol {
     border-radius: 16px;
 }
 
-.non-check {
+.done {
+    color: green;
+    border: 1px solid green;
+}
+
+.not-done {
     color: red;
     border: 1px solid red;
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    text-align: center;
-    line-height: 24px;
-    border-radius: 16px;
 }
 
 .linea-lista {
