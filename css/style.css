@@ -58,19 +58,18 @@ li h1 {
     border-bottom: 1px solid rgb(240, 240, 240);
 }
 
-#add-task {
-    color: lightgrey;
-    background-color: dodgerblue;
-    border-radius: 5px;
-    padding: 6px;
+.main-button {
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: #878787;
+    border: 1px solid lightgrey;
+    background-color: white;
 }
 
-#add-section {
-    color: lightgrey;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border: 1px solid black;
-    border-radius: 5px;
+.special-button {
+    background-color: #47ADF1;
+    color: white;
+    border: 1px solid #47ADF1;
 }
 
 #section-2 {
